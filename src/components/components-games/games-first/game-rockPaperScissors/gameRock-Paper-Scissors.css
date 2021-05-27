@@ -1,0 +1,76 @@
+ 
+  body {
+    display: flex;
+    justify-content: center;
+ 
+   
+  }
+  
+
+  .wraooerHands{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .player {
+    max-width: 200px;
+    height: 80px;
+    margin: 100px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+
+
+  .wrapperBtns{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto  0 auto;
+  }
+
+
+  .wrapperBtn {
+    width: 100px;
+    height: 50px;
+    display: inline;
+    margin: auto 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    background: #000;
+  }
+  
+  .player:nth-child(2) {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  .winner {
+    width: 100px;
+    height: 55px;
+    margin: 10px auto;
+    color: brown;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .player-image {
+    height: 200px;
+    width: auto;
+  }
+  button {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin:10px auto ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    background: #000;
+    /* outline: none; */
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  

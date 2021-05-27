@@ -1,0 +1,30 @@
+.banner-box{
+   width: auto; 
+   height: 140px;
+   /* background-color:#CBE2D7 ; */
+   background-image:url("./baner-img/gaming-channel-art-1-1024x576.jpg") ;
+   text-align: center;
+}
+
+
+
+@media screen and (max-width:970px) {
+
+   .banner-box{
+     
+      height: 100px;
+   }
+
+  }
+
+
+
+
+@media screen and (max-width:550px) {
+
+ .banner-box{
+     
+      height: 20px;
+   }
+
+}

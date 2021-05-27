@@ -1,0 +1,30 @@
+*{
+   box-sizing: border-box;
+}
+
+
+.home{
+     margin: 0;
+    padding: 0;
+   
+     width: 100%;
+  
+    min-height: 300px;
+    background-color: khaki;
+    margin: 0 auto;
+}
+
+
+.home h1{
+    background-color: lightcoral;
+    width: max-content;
+}
+/* @media only sereen and (min-width:820px){
+   
+.home{
+ 
+   
+    width: 100%;
+    height: auto;
+}
+} */
