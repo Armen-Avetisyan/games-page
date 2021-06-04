@@ -20,6 +20,7 @@ export class RockPaperScissors extends React.Component {
       counter++;
       this.setState({
         playerTwo: weapons[Math.floor(Math.random() * weapons.length)],
+       
         winner: ""
       });
       if (counter > 5) {

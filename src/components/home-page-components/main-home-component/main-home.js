@@ -24,10 +24,10 @@ return(
       <div className="gane-image-blok"><img className="games-img" src = {gameLogo1} alt = "  game " />  </div> */}
 
    
-      <NavLink  to="/play-game/1"> <img className="games-img" src = {gameLogo1} alt = "game " /> </NavLink>
-      <NavLink to="/play-game/2"> <img className="games-img" src = {gameLogo1} alt = "  game " /> </NavLink>
-      <NavLink  to="/play-game/3"> <img className="games-img" src = {gameLogo1} alt = "  game " /> </NavLink> 
-      <img className="games-img" src = {gameLogo1} alt = "  game " /> 
+      <NavLink  to="/play-game/1"> <img className="games-img" src = {gameLogo1} alt = "game "/> </NavLink>
+      <NavLink to="/play-game/2"> <img className="games-img" src = {gameLogo1} alt = "game "/> </NavLink>
+      <NavLink  to="/play-game/3"> <img className="games-img" src = {gameLogo1} alt = " game "/> </NavLink> 
+      <NavLink  to="/play-game/4"> <img className="games-img" src = {gameLogo1} alt = "game "/> </NavLink>
       <img className="games-img" src = {gameLogo1} alt = "  game " /> 
       <img className="games-img" src = {gameLogo1} alt = "  game " /> 
       <img className="games-img" src = {gameLogo1} alt = "  game " /> 

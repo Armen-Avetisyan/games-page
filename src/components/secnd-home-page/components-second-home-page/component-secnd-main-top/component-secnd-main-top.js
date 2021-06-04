@@ -7,6 +7,7 @@ import {TicTacToe} from "../../../components-games/games-first/game-TicTacToe/ga
 
 import { RockPaperScissors } from "../../../components-games/games-first/game-rockPaperScissors/gameRock-Paper-Scissors";
 import { MemoryPokemon } from "../../../components-games/games-first/gameMemoryPokemon/gameMemory-Pokemon";
+import SnakeComponent from "../../../components-games/games-second/game-Snake/gameSnake";
 
  export function SecondMainTop(){
 
@@ -20,6 +21,8 @@ import { MemoryPokemon } from "../../../components-games/games-first/gameMemoryP
        case "2" : game =  <RockPaperScissors/>
        break;
        case "3" : game = <MemoryPokemon/>
+       break;
+       case "4" : game = <SnakeComponent/>
        break;
     }
 
