@@ -21,7 +21,7 @@ import { SecondMainBootom } from "./components-second-home-page/component-secnd-
            
            
            <SecondMainTop/>
-           <SecondMainBootom/>
+           {/* <SecondMainBootom/> */}
             
          {/* <Footer/> */}
     </div>
